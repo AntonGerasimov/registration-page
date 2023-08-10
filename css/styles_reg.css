@@ -38,8 +38,26 @@ body {
   border: thin;
   border-radius: 10px;
   cursor: pointer;
+  width: 120%;
+  opacity: 0.9;
+}
+
+.success_button{
+  background-color: purple;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: thin;
+  border-radius: 10px;
+  cursor: pointer;
   width: 40%;
   opacity: 0.9;
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+        display: block;
+    text-align: center;
 }
 
 
@@ -52,7 +70,7 @@ a {
 
 
 input{
-  width: 40%;
+  width: 120%;
   padding: 15px;
   margin: 5px 10px 22px 0;
   display: inline-block;
@@ -64,14 +82,11 @@ input{
   outline-style: solid;
   outline-color: purple;
   outline-width: thin;
-}
-
-.b{
-
+  text-align: center;
 }
 
 input[type=date], input[type=password] {
-  width: 40%;
+  width: 120%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -86,7 +101,7 @@ input[type=date], input[type=password] {
 }
 
 input[type=text], input[type=password] {
-  width: 40%;
+  width: 120%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -103,6 +118,7 @@ input[type=text], input[type=password] {
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+  text-align: center;
 }
 
 h1{
@@ -116,12 +132,20 @@ h1{
   color: white;
 }
 
-label {
-  display: block;
-  padding-left: 420px;
-  /* position is not required */
-}
 
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 
 

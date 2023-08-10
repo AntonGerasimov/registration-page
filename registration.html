@@ -15,82 +15,74 @@
             Create your account
         </h1>
 
-
-        <center>
-            <p>Please fill in this form to create an account.</p>
-        </center>
-        
     
         <hr>
 
-    
-    
 
+<div class = "form">
+<form action = "success.html">
+    <p>Please fill in this form to create an account in our social network!</p>
     <label for="first-name"><b>First name</b></label>
-    <center>
-        <input type="text" placeholder="Enter First name" name="first-name" id="first-name" required>
-    </center>
+    <br>
+    <input type="text" placeholder="Enter First name" name="first-name" id="first-name" required>
     
     <br>
-    <label for="second-name"><b>Second name</b></label>
-    <center>
-    <input type="text" placeholder="Enter Second name" name="second-name" id="second-name" required>
-    </center>
+    <label for="second-name"><b>Last name</b></label>
+    <br>
+    <input type="text" placeholder="Enter Last name" name="second-name" id="second-name" required>
 
     <br>
     <label for="birth-date"><b>Birth date</b></label>
-    <center>
+<br>
     <input type="date" placeholder="Enter Birth date" name="birth-date" id="birth-date" required>
-    </center>
+
 
     <br>
     <label for="email"><b>Email</b></label>
-    <center>
+    <br>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    </center>
+
 
     <br>
     <label for="city"><b>City</b></label>
-    <center>
+   <br>
             <input type="text" placeholder="Enter City" name="city" id="city" required>
 
-    </center>
 
 
-<center>
-   <form>
+
+
        <p> Do you have facebook account? </p>
-        <button type="button" onclick="addFacebook()" id="facebookButton" >Yes</button>
-        <button type="button">No</button>
-   </form>
+        <button type="button" onclick="addFacebook()" id="facebookYesButton" >Yes</button>
+        <button type="button" onclick="removeFacebook()" id="facebookNoButton">No</button>
 
    <p id = "test-id"> </p> 
-   </center>
+
 
 
 
     <br>
     <label for="psw"><b>Password</b></label>
-    <center>
+       <br>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    </center>
+    
 
     <br>
     <label for="psw-repeat"><b>Repeat Password</b></label>
-    <center>
+       <br>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
 
 
-    <li class="button-row">
-        <a href="success.html">
         <button type="submit" class="register_button">
             Send
         </button>
 
-    </li>
+    
 
-    </center>   
-
+</form>
+</div>
+    
+    
         <hr>
         <center>
             <p>
